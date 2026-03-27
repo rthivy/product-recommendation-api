@@ -31,9 +31,6 @@ const vehicles = [
   { id: 'v20', year: 2019, make: 'GMC', model: 'Sierra 1500' }
 ];
 
-// -----------------------------
-// PRODUCTS
-// -----------------------------
 const products = [
   {
     id: 'p1',
@@ -45,6 +42,8 @@ const products = [
       'Premium ceramic front brake pads designed for smooth stopping power, reduced brake dust, and quiet daily driving performance.',
     fitmentInstructions:
       'Confirm front brake configuration before installation. Replace pads in axle sets only. Inspect rotors for wear and resurface or replace if needed. Perform brake bedding procedure after installation.',
+    fitmentVideoTitle: 'How to Replace Front Brakes on Any Vehicle',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=IBF78tzF6y4',
     fitments: ['v1', 'v3', 'v8', 'v11', 'v15']
   },
   {
@@ -57,6 +56,8 @@ const products = [
       'High-flow engine air filter that helps protect the engine from dust and debris while supporting proper airflow.',
     fitmentInstructions:
       'Open the air box housing, remove the old filter, clean out debris, and install with the seal seated evenly. Verify housing clips are fully secured.',
+    fitmentVideoTitle: 'How to Change a Vehicle’s Air Filter',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=QwPxj4WacTI',
     fitments: ['v1', 'v2', 'v4', 'v6', 'v12', 'v13', 'v18']
   },
   {
@@ -69,6 +70,8 @@ const products = [
       'Synthetic media oil filter built for extended oil change intervals and improved contaminant capture.',
     fitmentInstructions:
       'Lubricate the gasket before install, hand-tighten to manufacturer spec, and confirm no leaks after engine startup.',
+    fitmentVideoTitle: 'How to Change Car Oil and Filter',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=VWO7A6Jj0DA',
     fitments: ['v3', 'v4', 'v8', 'v10', 'v11', 'v14', 'v15']
   },
   {
@@ -81,6 +84,8 @@ const products = [
       'Rear shock kit designed to restore ride control, reduce bouncing, and improve overall handling.',
     fitmentInstructions:
       'Support the suspension before removing old shocks. Install both rear shocks together. Torque upper and lower mounting hardware to vehicle specification.',
+    fitmentVideoTitle: 'How To Replace Rear Shocks',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=BRrhiAj5wQc',
     fitments: ['v2', 'v6', 'v9', 'v10', 'v12', 'v17', 'v18']
   },
   {
@@ -93,6 +98,8 @@ const products = [
       'Complete LED headlight assembly offering brighter output and improved nighttime road visibility.',
     fitmentInstructions:
       'Remove bumper or trim as needed for access. Connect wiring harness securely and test all beam functions before final reassembly. Headlight aiming may be required.',
+    fitmentVideoTitle: 'How to Install LED Headlights in Your Car',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=K0RpT-fRqDc',
     fitments: ['v5', 'v7', 'v9', 'v19', 'v20']
   },
   {
@@ -105,6 +112,8 @@ const products = [
       'Durable floor mat set designed to protect interior carpet from mud, snow, spills, and daily wear.',
     fitmentInstructions:
       'Remove existing mats before installing. Align retention clips or anchors where applicable. Do not stack mats on top of original mats.',
+    fitmentVideoTitle: 'WeatherTech FloorLiner Installation Video',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=bHU2ZaS1scM',
     fitments: ['v1', 'v2', 'v4', 'v9', 'v10', 'v11', 'v12', 'v13', 'v18']
   },
   {
@@ -117,6 +126,8 @@ const products = [
       'Maintenance-free AGM battery providing reliable cold starts and strong reserve capacity.',
     fitmentInstructions:
       'Disconnect negative terminal first and reconnect it last. Confirm battery group size and terminal orientation before installation.',
+    fitmentVideoTitle: 'How To Replace Your Car Battery + Why AGM Is A Smart Choice',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=rfuo21a-Geo',
     fitments: ['v1', 'v2', 'v3', 'v4', 'v8', 'v10', 'v15', 'v16']
   },
   {
@@ -129,6 +140,8 @@ const products = [
       'Beam-style windshield wiper blades engineered for streak-free visibility in rain and snow.',
     fitmentInstructions:
       'Match driver and passenger side lengths before install. Confirm adapter clicks into place and test sweep path after installation.',
+    fitmentVideoTitle: 'How to Change Windshield Wipers',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=V_s1gVMfMTI',
     fitments: [
       'v1', 'v2', 'v3', 'v4', 'v6', 'v8', 'v9', 'v10',
       'v11', 'v12', 'v13', 'v14', 'v15', 'v16', 'v17', 'v18'
@@ -144,6 +157,8 @@ const products = [
       'Iridium spark plugs for improved ignition performance, fuel efficiency, and long service life.',
     fitmentInstructions:
       'Gap only if required by manufacturer. Install into a cool engine and torque correctly to avoid thread damage.',
+    fitmentVideoTitle: 'Spark Plug Replacement DIY (The Ultimate Guide)',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=m_ZsWQ_WXNo',
     fitments: ['v1', 'v3', 'v8', 'v11', 'v12', 'v13', 'v14']
   },
   {
@@ -156,6 +171,8 @@ const products = [
       'Direct-fit aluminum radiator designed to restore cooling efficiency and support proper engine temperature.',
     fitmentInstructions:
       'Drain coolant fully before removal. Inspect hoses and clamps during installation. Refill with correct coolant mixture and bleed the system of air.',
+    fitmentVideoTitle: 'How to Replace a Radiator (Complete Guide)',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=MeruAZebIeU',
     fitments: ['v5', 'v7', 'v19', 'v20']
   },
   {
@@ -168,6 +185,8 @@ const products = [
       'Transmission filter and gasket kit for servicing automatic transmission fluid systems.',
     fitmentInstructions:
       'Verify transmission type before purchase. Clean pan thoroughly, replace gasket, and refill using manufacturer-approved fluid.',
+    fitmentVideoTitle: 'How to Change Automatic Transmission Fluid and Filter',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=yb_1wbiPz9g',
     fitments: ['v5', 'v7', 'v19', 'v20', 'v6']
   },
   {
@@ -180,6 +199,8 @@ const products = [
       'Complete front wheel hub assembly with bearing and sensor-ready fitment for smoother wheel operation.',
     fitmentInstructions:
       'Inspect knuckle and axle splines before installation. Torque axle nut and wheel fasteners to specification. Alignment check recommended afterward.',
+    fitmentVideoTitle: 'How to Replace a Front Wheel Bearing',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=fe_WtKIKlYA',
     fitments: ['v2', 'v4', 'v6', 'v9', 'v10', 'v17', 'v18']
   },
   {
@@ -192,6 +213,8 @@ const products = [
       'Stainless steel cat-back exhaust system designed for improved exhaust flow and a refined performance tone.',
     fitmentInstructions:
       'Install on a cool exhaust system. Reuse or replace hangers as needed and ensure all joints are aligned before tightening clamps fully.',
+    fitmentVideoTitle: 'How to Install a Cat Back Exhaust',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=A7UMwYWb6Uw',
     fitments: ['v3', 'v5', 'v7', 'v15', 'v19']
   },
   {
@@ -204,6 +227,8 @@ const products = [
       'Loaded front strut assembly intended to restore ride height, control, and handling.',
     fitmentInstructions:
       'Install in pairs on the same axle. Check camber alignment after replacement. Confirm left and right orientation before install.',
+    fitmentVideoTitle: 'How to Replace Struts in Your Car or Truck',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=cI3EDqzOghc',
     fitments: ['v1', 'v2', 'v4', 'v11', 'v12', 'v13', 'v14', 'v18']
   },
   {
@@ -216,6 +241,8 @@ const products = [
       'Cabin air filter designed to reduce dust, pollen, and airborne contaminants entering the passenger compartment.',
     fitmentInstructions:
       'Typically accessed behind the glove box or cowl area. Confirm airflow direction arrow during installation.',
+    fitmentVideoTitle: 'How To Change the Cabin Air Filter in Your Car',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=szVZys8KZoU',
     fitments: [
       'v1', 'v2', 'v3', 'v4', 'v8', 'v9', 'v10',
       'v11', 'v12', 'v13', 'v14', 'v15', 'v16', 'v17', 'v18'
@@ -231,6 +258,8 @@ const products = [
       'Direct replacement alternator for reliable charging system performance and battery support.',
     fitmentInstructions:
       'Disconnect battery before installation. Confirm pulley alignment and belt routing before starting the engine.',
+    fitmentVideoTitle: 'How to Replace an Alternator in a Car',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=byTfS1kcF1E',
     fitments: ['v5', 'v6', 'v7', 'v19', 'v20']
   },
   {
@@ -243,6 +272,8 @@ const products = [
       'Multi-rib serpentine drive belt built for dependable accessory drive performance.',
     fitmentInstructions:
       'Inspect pulleys and tensioner before install. Route belt using under-hood belt diagram and confirm proper rib alignment.',
+    fitmentVideoTitle: 'How to Replace a Serpentine Belt',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=riWXM5QdfFk',
     fitments: [
       'v1', 'v2', 'v3', 'v4', 'v5', 'v6', 'v7', 'v8',
       'v9', 'v10', 'v11', 'v12', 'v13', 'v14', 'v15',
@@ -259,6 +290,8 @@ const products = [
       'Rear brake rotor set engineered for stable braking performance and heat dissipation.',
     fitmentInstructions:
       'Clean hub surface before installation to prevent runout. Replace in pairs and confirm parking brake adjustment where applicable.',
+    fitmentVideoTitle: 'How to Replace Rear Brake Pads and Rotors',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=drWRjUD4T1s',
     fitments: ['v1', 'v3', 'v4', 'v8', 'v10', 'v15', 'v16']
   },
   {
@@ -271,6 +304,8 @@ const products = [
       'Tire pressure monitoring sensor kit for restoring accurate tire pressure reporting.',
     fitmentInstructions:
       'Sensors may require programming or relearn procedure after installation. Verify wheel compatibility before mount and balance.',
+    fitmentVideoTitle: 'TPMS Sensors Explained: Changing and Programming at Home',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=SDXLmt5XsHA',
     fitments: [
       'v1', 'v2', 'v4', 'v5', 'v6', 'v7', 'v9', 'v10',
       'v11', 'v12', 'v13', 'v14', 'v17', 'v18', 'v19', 'v20'
@@ -286,10 +321,11 @@ const products = [
       'Class-rated trailer hitch receiver designed for light-duty towing and accessory mounting.',
     fitmentInstructions:
       'Use supplied hardware and torque to spec. Some installations may require trimming underbody panels or lowering the spare tire temporarily.',
+    fitmentVideoTitle: 'How To: Install a Trailer Hitch',
+    fitmentVideoUrl: 'https://www.youtube.com/watch?v=9skw2AtsD2k',
     fitments: ['v2', 'v4', 'v6', 'v9', 'v10', 'v11', 'v12', 'v13', 'v17', 'v18']
   }
 ];
-
 // -----------------------------
 // ROUTES
 // -----------------------------
@@ -319,17 +355,18 @@ app.get('/api/vehicles', (req, res) => {
 });
 
 app.get('/api/products', (req, res) => {
-  const cleanProducts = products.map((product) => ({
-    id: product.id,
-    sku: product.sku,
-    name: product.name,
-    category: product.category,
-    price: product.price,
-    description: product.description,
-    fitmentInstructions: product.fitmentInstructions,
-    fitmentCount: product.fitments.length
-  }));
-
+const cleanProducts = products.map((product) => ({
+  id: product.id,
+  sku: product.sku,
+  name: product.name,
+  category: product.category,
+  price: product.price,
+  description: product.description,
+  fitmentInstructions: product.fitmentInstructions,
+  fitmentVideoTitle: product.fitmentVideoTitle,
+  fitmentVideoUrl: product.fitmentVideoUrl,
+  fitmentCount: product.fitments.length
+}));
   res.json({
     success: true,
     count: cleanProducts.length,
@@ -365,17 +402,19 @@ app.post('/api/recommendations', (req, res) => {
     });
   }
 
-  const recommendedProducts = products
-    .filter((product) => product.fitments.includes(matchedVehicle.id))
-    .map((product) => ({
-      id: product.id,
-      sku: product.sku,
-      name: product.name,
-      category: product.category,
-      price: product.price,
-      description: product.description,
-      fitmentInstructions: product.fitmentInstructions
-    }));
+const recommendedProducts = products
+  .filter((product) => product.fitments.includes(matchedVehicle.id))
+  .map((product) => ({
+    id: product.id,
+    sku: product.sku,
+    name: product.name,
+    category: product.category,
+    price: product.price,
+    description: product.description,
+    fitmentInstructions: product.fitmentInstructions,
+    fitmentVideoTitle: product.fitmentVideoTitle,
+    fitmentVideoUrl: product.fitmentVideoUrl
+  }));
 
   return res.json({
     success: true,
